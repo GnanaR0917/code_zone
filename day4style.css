@@ -1,0 +1,29 @@
+/* element selector 
+h1{
+    color: blue;
+}
+/* class selector 
+.headingstyle{
+    color: blueviolet;
+}
+/* class selector 
+.thirdheadingstyle{
+    color: brown;
+}
+/* id selector */
+.para1{
+    color: rgb(157, 40, 157);
+}
+.para2{
+    color: rgb(34, 129, 212);
+}
+.para3{
+    color: rgb(208, 62, 91);
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;  /* 100-900 range thickness */
+    font-style: italic;
+    text-decoration:underline;
+    text-decoration-style:dotted;
+    text-align:justify;
+}

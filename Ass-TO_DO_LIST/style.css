@@ -1,0 +1,42 @@
+.todolist{
+    color: white;
+}
+.heading1{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size:xx-large;
+}
+.para1{
+    font-family: "Roboto", sans-serif;
+    font-size: small;
+    text-align: center;
+}
+.heading2{
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    text-align: left;
+}
+.mainblock{
+    font-family: "Roboto", sans-serif;
+    font-size: small;
+    text-align:left;
+}
+.bgimage{
+    background-image: url('https://ik.imagekit.io/4z8covdo9/Full stack/todolistbg.png?updatedAt=1700761069523');
+    background-size: cover;
+    height:600px;
+    width: 300px;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgcol{
+    background-color: orange;
+    color: white;
+}
+.note{
+    text-decoration: underline;
+    text-align: center;
+}
