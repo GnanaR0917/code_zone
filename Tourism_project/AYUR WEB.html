@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traditional Treasure</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,
+    wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;
+    1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,
+    wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" 
+    rel="stylesheet">
+    <style>
+        body {
+            font-family: "Poppins", serif;
+            margin: 0;
+            padding: 0;
+            background-color: #b3d29e;
+        }
+        header {
+            background-color: #1d4b20;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #b3dd82;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #8bedce;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-image: url('F:\GS XII\VSC\Asserts\ayur.jpg');
+            background-size: cover;
+            background-position: center;
+            color: rgb(246, 242, 242);
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product-card {
+            background: rgb(167, 228, 154);
+            border: 1px solid #103915;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .product-card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .product-card h3 {
+            font-size: 1.5rem;
+            color: #333;
+        }
+        .product-card p {
+            color: #777;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+<header>
+    <h1>Your Wellness Journey Begins Here</h1>
+    <p>Ayurvedic medicines offer a natural and holistic approach to healing, addressing the root causes of diseases rather than just the symptoms. 
+    By harnessing the power of herbs, minerals, and ancient practices, Ayurveda restores balance and promotes overall wellness, ensuring a healthier, more harmonious life.</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#products">Medicines</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+<section class="hero">
+    <h1>Experience the Power of Ayurveda</h1>
+    <p>Natural, Healthy, and Holistic Solutions</p>
+</section>
+<section class="container" id="products">
+    <div class="product-card">
+        <h3>Leham</h3>
+        <p>Made with a blend of potent herbs, jaggery, honey, 
+            and ghee, it acts as a natural tonic to boost immunity, 
+            enhance digestion, and address various ailments.</p>
+    </div>
+    <div class="product-card">
+        <h3>Kashayam</h3>
+        <p>Kashayam is designed to extract the potent therapeutic properties of the ingredients. Known for its
+            bitter and earthy taste, it targets specific health conditions 
+            such as digestive disorders, respiratory issues, and inflammation.</p>
+    </div>
+    <div class="product-card">
+        <h3>Ayurvedic Treatments</h3>
+        <p>Therapy that includes specialized treatments such asVamana (therapeutic vomiting),
+        Virechana (purgation), Basti (medicated enema), Nasya (nasal therapy), and Raktamokshana (blood purification).</p>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2025 Ayurvedic Bliss. All rights reserved.</p>
+</footer>
+</body>
+</html>
